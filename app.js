@@ -24,6 +24,6 @@ app.get('/', (req, res) => {
   res.send('Hello world');
 });
 
-app.listen(port, hostname, () => {
-  console.log(`Server listening at http://${hostname}:${port}`);
+app.listen(port, () => {
+  console.log(`Server listening on port ${port}`);
 });
